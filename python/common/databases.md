@@ -1,6 +1,6 @@
-# SQlite
+# SQlite
 
-## Initialize
+## Initialize
 
 To use the module, you must first create a Connection object that represents the database. Here the data will be stored in the example.db file:
 
@@ -9,7 +9,7 @@ To use the module, you must first create a Connection object that represents the
         conn = sqlite3.connect('example.db')
 ```
 
-## Query
+## Query
 
 Once you have a Connection, you can create a Cursor object and call its execute() method to perform SQL commands:
 
@@ -31,7 +31,7 @@ Once you have a Connection, you can create a Cursor object and call its execute(
         conn.close()
 ```
 
-## MitigateSQL injections
+## MitigateSQL injections
 
 ```python
         # Never do this -- insecure!
@@ -52,7 +52,7 @@ Once you have a Connection, you can create a Cursor object and call its execute(
 ```
 
 
-## Retrieve data
+## Retrieve data
 
 To retrieve data after executing a SELECT statement, you can either
 

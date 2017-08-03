@@ -1,4 +1,4 @@
-# goal : deploy in one command
+# goal : deploy in one command
 
 The goal is to be able to deploy with a simple push to the git repo hosted on the server (the `live` remote):
 
@@ -97,7 +97,7 @@ echo  "\n${YELLOW}##########################################${NC}"
 echo  "${YELLOW}#    Exectution post-receive.sh script   #${NC}"
 echo  "${YELLOW}##########################################${NC}"
 
-# activate virtual env
+# activate virtual env
 echo  "\n\n${YELLOW}activate virtual env${NC}"
 . ~/.virtualenvs/trellowatch/bin/activate
 
@@ -119,5 +119,5 @@ sudo systemctl restart trellowatch
 ```
 
 
-# Going further
+# Going further
 See a more generic version @ https://gist.github.com/thomasfr/9691385 (use of makefile for post-receive.sh for instance)

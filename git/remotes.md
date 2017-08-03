@@ -13,7 +13,7 @@ git remote -v
 git remote rename origin destination
 ```
 
-# Change your remote's URL
+# Change your remote's URL
 
 ```bash
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
@@ -26,7 +26,7 @@ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git remote add origin https://github.com/user/repo.git
 ```
 
-# remove a remote
+# Remove a remote
 
 ```bash
 git remote rm destination

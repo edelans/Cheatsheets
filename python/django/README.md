@@ -29,5 +29,5 @@ from django.test.utils import setup_test_environment
 setup_test_environment()
 $ python manage.py test watcher
 
-# assets
+# assets
 $ python manage.py collectstatic

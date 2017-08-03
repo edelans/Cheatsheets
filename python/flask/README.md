@@ -45,7 +45,7 @@ Migrations
 For a full migration command reference, run ``python manage.py db --help``.
 
 
-# Flask CLI
+# Flask CLI
 ----------
 
 ` export FLASK_APP=/home/edelans/github/louonsmieux/app/__init__.py`

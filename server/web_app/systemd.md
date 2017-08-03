@@ -1,10 +1,10 @@
 # use systemd
 systemd is an init system used manage processes, like gunicorn. It will launch gunicorn at server start, and respawn it when it fails.
 
-## Configuration
+## Configuration
 A service configuration file is provided at the root of this repo. It should be stored in `/etc/systemd/system/`.
 
-## Logs consultation
+## Logs consultation
 Make use of `journalctl`. It will show the logs of gunicorn, which receive the logs Django sends to the console (depending on you logger config).
 
 You can filter by :
@@ -15,7 +15,7 @@ You can filter by :
 
 - as you go (like `tail -f`) : `journalctl -f`
 
-## Logs cleaning
+## Logs cleaning
 
 - to keep only 1G of logs : `sudo journalctl --vacuum-size=1G`
 - to keep entries from the last year : `sudo journalctl --vacuum-time=1years`

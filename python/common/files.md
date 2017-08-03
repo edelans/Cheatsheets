@@ -19,7 +19,7 @@ with open(“hello.text”, “r”) as f:
     print(words)
 ```
 
-## Write
+## Write
 
 ```python
 with open(“hello.txt”, “w”) as f:
@@ -27,6 +27,6 @@ with open(“hello.txt”, “w”) as f:
 ```
 
 
-# CSV files
+# CSV files
 
 use the [csv module](https://docs.python.org/3.5/library/csv.html)

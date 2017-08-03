@@ -211,8 +211,8 @@ SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/home/'
 
 # Email config
 # test with :
-# from django.core.mail import send_mail
-# send_mail('<Test email from Django>', '<it\'s up>', 'deploy@edelans.com', ['edelans@gmail.com'])
+# from django.core.mail import send_mail
+# send_mail('<Test email from Django>', '<it\'s up>', 'deploy@edelans.com', ['edelans@gmail.com'])
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 25

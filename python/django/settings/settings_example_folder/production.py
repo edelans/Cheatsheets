@@ -1,7 +1,7 @@
 from .base import *  # noqa
 import os
 
-# activate with export DJANGO_SETTINGS_MODULE="trellowatch.settings.production"
+# activate with export DJANGO_SETTINGS_MODULE="trellowatch.settings.production"
 
 DEBUG = False
 
@@ -35,8 +35,8 @@ SOCIAL_AUTH_TRELLO_APP_NAME = 'TrelloWatch'
 
 # Email config
 # test with :
-# from django.core.mail import send_mail
-# send_mail('<Test email from Django>', '<it\'s up>', 'deploy@edelans.com', ['edelans@gmail.com'])
+# from django.core.mail import send_mail
+# send_mail('<Test email from Django>', '<it\'s up>', 'deploy@edelans.com', ['edelans@gmail.com'])
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 25
