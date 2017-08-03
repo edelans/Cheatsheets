@@ -54,7 +54,11 @@ Once you have a Connection, you can create a Cursor object and call its execute(
 
 ## Retrieve data
 
-To retrieve data after executing a SELECT statement, you can either treat the cursor as an iterator, call the cursor’s fetchone() method to retrieve a single matching row, or call fetchall() to get a list of the matching rows.
+To retrieve data after executing a SELECT statement, you can either
+
+* treat the cursor as an iterator,
+* call the cursor’s fetchone() method to retrieve a single matching row,
+* or call fetchall() to get a list of the matching rows.
 
 This example uses the iterator form:
 
