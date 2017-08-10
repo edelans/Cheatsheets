@@ -168,6 +168,10 @@ I will outline the basic building blocks of re's below then follow on with a set
 - `^` - matches the beginning of the line.
 - `$` - matches the end of the line.
 
+More comprehensive guide @ https://github.com/zeeshanu/learn-regex .
+Awesome testing tool @ https://regex101.com/ with lots of helpers, code generators and more.
+
+
 
 
 # Useful Commands
