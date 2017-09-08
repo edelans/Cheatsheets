@@ -7,9 +7,17 @@
 
 Sorts standard input then outputs the sorted result on standard output.
 
+Useful options :
+- `-r` reverse
+- `-g` general-numeric-sort : compare according to general numerical value (23 > 3 in this mode), useful when combining sort and uniq
+
+
 **uniq**
 
 Given a sorted stream of data from standard input, it removes duplicate lines of data (i.e., it makes sure that every line is unique).
+
+Useful options :
+- `-c` prepend string with number of occurences
 
 **wc**
 
@@ -167,6 +175,14 @@ I will outline the basic building blocks of re's below then follow on with a set
 - `|` (pipe symbol) - the logical OR operation.
 - `^` - matches the beginning of the line.
 - `$` - matches the end of the line.
+- `\K` tells the engine to pretend that the match attempt started at this position.
+
+This example will better demonstrate the `\K` usage:
+
+    ~$ echo 'hello world' | grep -oP 'hello \K(world)'
+    world
+    ~$ echo 'hello world' | grep -oP 'hello (world)'
+    hello world
 
 More comprehensive guide @ https://github.com/zeeshanu/learn-regex .
 Awesome testing tool @ https://regex101.com/ with lots of helpers, code generators and more.
