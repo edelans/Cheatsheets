@@ -120,6 +120,8 @@ $ egrep -l '[0-9]{8,}' /files/projectx/*
 # Print each file in the directory projectx which contains a number of 8 digits or more.
 $ egrep '\b[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}\b' myfile.txt
 # Print every line of myfiles.txt containing an email address (naive email matching pattern)
+$ grep -rni "string" *
+# recursively grep for a particular text within a dir
 ```
 
 
