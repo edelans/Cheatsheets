@@ -74,6 +74,11 @@ A basic expression is of the following format: `s/search/replace/g`
 - initial s stands for substitute and specifies the action to perform (there are others but for now we'll keep it simple).
 - The g at the end stands for global and is optional. If we omit it then it will only replace the first instance of search on each line.
 
+```bash
+# Replace the chosen string with a new one
+sed -e "s/old_string/new_string/"
+```
+
 # Commands
 
 **egrep or grep -E**
