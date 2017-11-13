@@ -7,7 +7,7 @@
 # connect
 
 Connect to local host on default port 27017
-        mongod
+        mongo
 
 Connect to remote host on specified port
         mongo --host <hostname or ip address> --port <port no>
