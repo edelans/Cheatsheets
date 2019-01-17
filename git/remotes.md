@@ -16,14 +16,16 @@ git remote rename origin destination
 # Change your remote's URL
 
 ```bash
-git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
+
+prefer the `git@github.com:` over the `https://` to leverage auth with ssh key.
 
 
 # Set a new remote
 
 ```bash
-git remote add origin https://github.com/user/repo.git
+git remote add origin git@github.com:user/repo.git
 ```
 
 # Remove a remote
