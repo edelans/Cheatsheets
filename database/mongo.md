@@ -73,3 +73,9 @@ Count companies by salestype :
         });
         console.log(company_count);
         ```
+
+or directly in the mongo shell :
+
+db.users.aggregate([
+    {"$group" : {_id:"$lang", count:{$sum:1}}}
+])
